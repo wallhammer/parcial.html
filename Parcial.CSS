@@ -1,0 +1,41 @@
+.figuras{
+    display: flex;
+    align-items: stretch;
+    flex-direction: ROW;
+    justify-content: space-between;
+    
+}
+.figuras div{
+    position: relative;
+    background-color: #747578;
+    width: 80%;
+}
+
+
+.Parcial1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.Parcial1 h1{
+    position: absolute;
+    margin: auto;
+    background-color: grey;
+
+    
+}
+.titulo{
+    position: relative;
+    display: flex;
+    justify-content: column;
+}
+html{
+    background-color: gray;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    justify-content: space-between;
+}
